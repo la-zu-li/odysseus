@@ -3,6 +3,7 @@ name: SonarQube Cloud Static Analysis
 on:
   push:
   pull_request:
+  workflow_dispatch:
     branches: ["dev"]
 
 jobs:
